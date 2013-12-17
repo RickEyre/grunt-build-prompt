@@ -1,0 +1,43 @@
+{
+  "name": "grunt-build-prompt",
+  "description": "Grunt plugin to dynamically build packaged distributions of projects.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/RickEyre/grunt-build-prompt",
+  "author": {
+    "name": "Rick Eyre",
+    "email": "rick.eyre@hotmail.com",
+    "url": "rickeyre.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RickEyre/grunt-build-prompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RickEyre/grunt-build-prompt/issues"
+  },
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/RickEyre/grunt-build-prompt/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
